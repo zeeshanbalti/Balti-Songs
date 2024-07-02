@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    background: antiquewhite;
+};
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: "Ubuntu" ,sans-serif;
+}; 
+h1{
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 69px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    align-items: center;
+};
+h1{
+
+}
+nav ul li{
+    padding: 0px .5rem;
+}
+.brand-logo img{
+width: 44px;
+padding: 0px 12px;
+
+}
+h1{
+
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+} 
+h1{
+
+}
+.container{
+    min-height: 70vh;
+    background-color:  rgb(34, 32, 32);
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    font-family: "Playwrite US Modern", cursive;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+
+}
+h1{
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:  rgb(34, 32, 32);
+    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+h1{
+
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+};
+.icons{
+margin-top: 34px;
+};
+h1{
+
+}
+.icons i{
+    cursor: pointer;
+}
+h1{
+
+}
+.songItamContainer{
+    margin-top: 70px;
+}
+.songItem{
+height: 40px; 
+display: flex;
+background-color: white;
+color: rgb(34, 32, 32);
+margin: 12px 0px;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+.songItem img{
+width: 40px;
+margin: 0px 23px;
+border-radius: 34px;
+}
+.timeStam{
+    margin: 0px 23px;
+}
+.timeStam i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 9vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
